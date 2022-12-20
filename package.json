@@ -1,0 +1,48 @@
+{
+  "name": "apollo-server4-sveltekit",
+  "version": "0.9.1",
+  "description": "The best integration of Apollo Server 4 for SvelteKit",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "rimraf ./dist && tsc -d"
+  },
+  "devDependencies": {
+    "@apollo/server": "^4.3.0",
+    "@types/node": "18.11.17",
+    "rimraf": "3.0.2",
+    "ts-node-dev": "2.0.0",
+    "typescript": "4.9.4"
+  },
+  "keywords": [
+    "GraphQL",
+    "Apollo",
+    "SvelteKit",
+    "Svelte",
+    "Apollo Server",
+    "Apollo Server 4",
+    "Apollo Server 4 SvelteKit",
+    "Server",
+    "Javascript"
+  ],
+  "author": "jjjjose",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjjjose/apollo-server4-sveltekit"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/jjjjose/apollo-server4-sveltekit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jjjjose/apollo-server4-sveltekit/blob/main/LICENSE"
+    }
+  ],
+  "files": [
+    "dist/"
+  ],
+  "private": false
+}
