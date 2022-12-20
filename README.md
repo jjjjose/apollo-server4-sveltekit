@@ -56,7 +56,7 @@ Before anything, you must create a file `+server.ts` in the `src/routes/api/` fo
   })
 
   const handler = createHandler(server, {
-    context: async (context: any) => ({ context }),
+    context: async (context) => ({ context }),
   })
 
   export const GET = handler
