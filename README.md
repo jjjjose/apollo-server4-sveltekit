@@ -23,14 +23,14 @@ yarn add @apollo/server apollo-server4-sveltekit
 
 ## Preparation
 
-Before anything, you must create a file `+server.ts` in the `src/routes` folder of your SvelteKit project.
+Before anything, you must create a file `+server.ts` in the `src/routes/api/` folder of your SvelteKit project.
 
 ## Usage
 
 - To use this function, first import it in your code:
 
   ```js
-  // src/routes/+server.ts
+  // src/routes/api/+server.ts
   import { ApolloServer } from '@apollo/server'
   import { createHandler } from 'apollo-server4-sveltekit'
   ```
